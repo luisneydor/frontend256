@@ -5,7 +5,7 @@
         table.innerHTML ="";
         request.onload = function () {
         let data = request.response;
-        ///console.log(data)
+        console.log(data)
         data.forEach(element => {
             table.innerHTML += 
     `    "holaaa"    

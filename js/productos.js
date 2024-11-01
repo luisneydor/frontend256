@@ -1,4 +1,3 @@
-
     function mostrarProductos() {
         let request = sendRequest('productos', 'GET', '');
         let table = document.getElementById('productos-table'); 

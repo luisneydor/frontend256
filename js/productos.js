@@ -7,8 +7,7 @@
         let data = request.response;
         console.log(data)
         data.forEach(element => {
-            table.innerHTML += 
-    `     
+            table.innerHTML += `     
             <tr>
                 <td> ${element._id}</td>
                 <td> ${element.referencia}</td>

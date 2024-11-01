@@ -4,9 +4,9 @@
         let table = document.getElementById('productos-table'); 
         table.innerHTML ="";
         request.onload = function () {
-        let data = request.response;
-        console.log(data)
-        data.forEach(element => {
+        let data1 = request.response;
+        console.log(data1)
+        data1.forEach(element => {
             table.innerHTML += `     
             <tr>
                 <td> ${element._id}</td>
